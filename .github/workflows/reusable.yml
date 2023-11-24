@@ -5,6 +5,7 @@ on:
     inputs: 
       who-to-greet:
         type: string
+        required: true
         default: 'World'
         
 
